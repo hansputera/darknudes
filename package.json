@@ -1,0 +1,22 @@
+{
+  "name": "icecream-project",
+  "version": "1.0.0",
+  "description": "Ice Cream Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "icecream"
+  ],
+  "author": "Hanif",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/collection": "^0.1.6",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "node-telegram-bot-api": "^0.50.0",
+    "superagent": "^6.1.0"
+  }
+}
