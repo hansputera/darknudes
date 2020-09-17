@@ -1,6 +1,7 @@
 const TelegramError = require("../handler/TelegramError");
 
 module.exports = async (bot, message) => {
+    if (message.from.is_bot) return; // just don't respond bot.
     if (message.chat.type === "group") {
         bot.sendMessage(message.chat.id, "Bot ini sedang dalam posisi maintenance.");
     } else if (message.chat.type === "private") {
