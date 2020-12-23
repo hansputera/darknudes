@@ -16,7 +16,7 @@
     "@discordjs/collection": "^0.1.6",
     "cheerio": "^1.0.0-rc.5",
     "express": "^4.17.1",
-    "node-telegram-bot-api": "^0.50.0",
+    "node-telegram-bot-api": "^0.51.0",
     "superagent": "^6.1.0"
   }
 }
